@@ -1,0 +1,15 @@
+current directory: /home/mai.huu.phuc/Desktop/demo/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+/home/mai.huu.phuc/.rvm/rubies/ruby-2.4.2/bin/ruby -r ./siteconf20180716-7245-9n5hyn.rb extconf.rb
+creating Makefile
+
+current directory: /home/mai.huu.phuc/Desktop/demo/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/mai.huu.phuc/Desktop/demo/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/mai.huu.phuc/Desktop/demo/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20180716-7245-e4viud/bindex

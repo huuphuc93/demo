@@ -1,0 +1,8 @@
+<%# cache comment do %>
+  <div class="comment">
+    <strong><%= comment.name %></strong>
+    <em>on <%= comment.created_at.strftime('%b %d, %Y') %></em>
+    <%= simple_format comment.content %>
+    <%= link_to "Edit", edit_article_comment_path(@article, comment) %>
+  </div>
+<%# end %>
